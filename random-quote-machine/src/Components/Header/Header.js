@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Header.scss';
 
 const Header = props => (
-	<div> 
+	<div className="w-full flex justify-end px-8">
 		<a href="#" className="text-sm text-white hover:text-black">About this project </a>
 	</div> 
 );
