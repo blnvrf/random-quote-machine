@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import styles from './Header.scss';
 
 const Header = props => (
-	<div>This is a component called Header. {props.name} </div> 
+	<div> 
+		<a href="#" className="text-sm text-white hover:text-black">About this project </a>
+	</div> 
 );
 
 // todo: Unless you need to use lifecycle methods or local state,
